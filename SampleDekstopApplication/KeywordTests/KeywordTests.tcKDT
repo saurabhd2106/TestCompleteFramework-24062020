@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Events">
+			<child name="InitializeApp_OnStartTest" key="{2BC482EB-0D57-453A-B230-2D65E99771E7}" path="InitializeApp_OnStartTest.tcKDTest" />
+			<child name="TerminateApp_OnStopTest" key="{5590BDE5-8B99-408B-982B-74332DD8C24E}" path="TerminateApp_OnStopTest.tcKDTest" />
+		</folder>
+		<folder name="Utils">
+			<child name="IndentLog" key="{F24F8FBA-8FA5-430E-ABEE-54AAEF9F9F1E}" path="IndentLog.tcKDTest" />
+			<child name="OutdentLog" key="{45CFEE3D-4971-4594-8E64-FFA582C46D0E}" path="OutdentLog.tcKDTest" />
+		</folder>
+		<folder name="CommonAction">
+			<child name="MainMenuSelection" key="{3195B7B7-10D1-4600-AB91-819D5DC7B850}" path="MainMenuSelection.tcKDTest" />
+			<child name="SaveAsFile" key="{B7CFAF54-71C5-4123-A435-192BED109388}" path="SaveAsFile.tcKDTest" />
+		</folder>
+		<folder name="Logic">
+			<child name="AddOrders" key="{A5F59E1F-72A0-4BB7-9AEC-8F3B0B7D7EA0}" path="AddOrders.tcKDTest" />
+		</folder>
+		<folder name="Test">
+			<child name="VerifyAddOrder" key="{BFFEC8B7-3B54-4D09-8C37-31F2FD5F5983}" path="VerifyAddOrder.tcKDTest" />
+			<child name="VerifyDefaultScreen" key="{A1515083-39F0-4097-BF73-81F469D7A460}" path="VerifyDefaultScreen.tcKDTest" />
+			<child name="VerifyAddOrder_viaExcel" key="{95D60AF3-1F36-4F57-9E39-CFA5779BC18D}" path="VerifyAddOrder_viaExcel.tcKDTest" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,16 @@
+﻿Function Indentog(folderName)
+
+  Dim logAttr
+  
+  Set logAttr = Log.CreateNewAttributes
+  logAttr.Bold = True
+  
+  Call Log.AppendFolder(folderName, "", pmNormal, logAttr)
+  
+End Function
+
+Function Outdentog
+
+  Call Log.PopLogFolder
+  
+End Function

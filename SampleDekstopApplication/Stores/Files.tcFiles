@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="14.0">
+	<children>
+		<child name="FileWithOneOrder" key="{362D85DE-DD80-4CA7-A16A-B17A992950CB}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="FileWithOneOrder" ID="{362D85DE-DD80-4CA7-A16A-B17A992950CB}" FileName="Files\MyTable32423.tbl" Update="False" />
+		</child>
+	</children>
+</Root>

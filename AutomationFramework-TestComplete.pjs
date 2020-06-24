@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{0234CD82-53DD-410A-B314-98D5C2C7A497}">
+	<children>
+		<child name="SampleDekstopApplication" key="{521C3E8E-1C40-47E8-A2F5-C3D1B1DC7092}" path="SampleDekstopApplication\SampleDekstopApplication.mds" />
+		<child name="SampleDekstopAppScripts" key="{0D0AE2C0-8E90-4575-865B-2B2426885C86}" path="SampleDekstopAppScripts\SampleDekstopAppScripts.mds" />
+	</children>
+	<testItems key="{16E6A0D2-2995-4BAE-985A-15CA43008A5A}">
+		<children>
+			<testItem key="{521C3E8E-1C40-47E8-A2F5-C3D1B1DC7092}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{0D0AE2C0-8E90-4575-865B-2B2426885C86}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3F09E3B3-72DE-45BE-BA57-FDBAA7087EEE}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{E7560169-2BFD-45B8-BA49-43B97D757E6C}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

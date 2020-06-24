@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{18F9E3DA-7634-406B-ACEA-D77D4A44A1D2}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="IndentLog">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="TestCaseName" DefVarType="8" DefValueType="6" DefValueValue="LogFolder" VarType="8" ValueType="6" ValueValue="VerifyAddOrder_viaExcel" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="TestDataFromExcel">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="AddOrders">
+							<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+								<Parameter Name="productName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="TestDataFromExcel" ColumnName="productName" />
+								<Parameter Name="customerName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="TestDataFromExcel" ColumnName="customerName" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="OutdentLog" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{7AA73754-8989-4342-A31D-01D650BBF8E8}">
+		<Items>
+			<Variable Name="TestDataFromExcel" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\..\..\Test Script\TestData\OrdersTestData.xlsx" Table="OrderData$" HasColumnNames="True" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{389CACE9-D5DE-4857-9C77-2414F2E0EB3D}" />
+</Root>

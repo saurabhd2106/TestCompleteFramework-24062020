@@ -1,0 +1,47 @@
+﻿'USEUNIT CommonActions
+'USEUNIT LogHanding
+
+Function AddOrder(productName, customerName, quantity, orderDate, cardType)
+   
+  Dim mainWindow                        'Create an object which identifies main window form 
+  Set mainWindow = Aliases.Orders.MainForm
+  
+  Dim orderWindow
+  Set orderWindow = Aliases.Orders.OrderForm
+  
+  Dim groupInOrderWindow
+  Set groupInOrderWindow = orderWindow.Group
+  
+  SelectMainMenuItem("Orders|New order...")
+ 
+  
+  Call groupInOrderWindow.ProductNames.ClickItem(productName)
+  
+  
+  groupInOrderWindow.Customer.SetText(customerName)
+  
+  groupInOrderWindow.Quantity.wValue = quantity
+  
+  groupInOrderWindow.Date.wDate = orderDate
+  
+  If cardType = "Visa" Then
+    
+    groupInOrderWindow.Visa.Click
+    
+    End If
+    
+    If cardType = "MasterCard" Then
+    
+    groupInOrderWindow.MasterCard.Click
+    
+    End If
+      
+    If cardType = "AmericanExpress" Then
+    
+    groupInOrderWindow.AE.Click
+    
+    End If
+  
+  Call orderWindow.ButtonOK.Click
+  
+End Function

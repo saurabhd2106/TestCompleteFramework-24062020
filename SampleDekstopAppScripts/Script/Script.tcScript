@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Events">
+			<child name="EventHandling" key="{C6A1678F-B003-476F-97E0-C17230C41636}" path="EventHandling.svb" />
+		</folder>
+		<folder name="CommonLibs">
+			<child name="CommonActions" key="{EF797D55-0869-4099-BE9B-43322AC2FEC8}" path="CommonActions.svb" />
+		</folder>
+		<folder name="Utils">
+			<child name="LogHanding" key="{59C95EE4-A101-45EE-99FA-5BAE9E13E4AA}" path="LogHanding.svb" />
+		</folder>
+		<folder name="Logic">
+			<child name="Orders" key="{023FD1D6-4FC9-4BBF-997D-603456F10B1F}" path="Orders.svb" />
+		</folder>
+		<folder name="Tests">
+			<child name="OrderTests" key="{B4D2CFDC-2F95-47CA-99DB-D2F6C71495D0}" path="OrderTests.svb" />
+		</folder>
+		<child name="Unit1" key="{84AC4E92-3C39-4BA3-BA80-3FDF99806405}" path="Unit1.svb" />
+	</children>
+</Root>

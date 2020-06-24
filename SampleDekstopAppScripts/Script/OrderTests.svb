@@ -1,0 +1,33 @@
+﻿'USEUNIT LogHanding
+'USEUNIT CommonActions
+'USEUNIT Orders
+Function VerifyAddOrderTest
+  
+  Indentog("Verify Add Order")
+
+  Dim productName
+  productName = "ScreenSaver"
+  
+  Dim customerName
+  customerName = "Saurabh"
+  
+  Dim quantity
+  quantity = 5
+  
+  Dim orderDate
+  orderDate = "06/06/2020"
+  
+  Dim cardType
+  cardType = "MasterCard"
+  
+  Call AddOrder(productName, customerName, quantity, orderDate, cardType)
+  
+  Dim fileName
+  
+  fileName = "MyTable" + aqConvert.DateTimeToFormatStr(aqDateTime.Now , "%y%m%d%S") + ".tbl"
+  
+  Call SaveFile(fileName)
+  
+  Outdentog
+
+End Function

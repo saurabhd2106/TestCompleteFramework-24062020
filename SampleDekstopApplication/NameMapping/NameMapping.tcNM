@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{6AB7D8D6-40FF-4B5F-A247-DA85CFCE1928}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{EEF3218A-D28A-4930-9860-F0FFE1C5F1AE}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Orders" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{EB81895D-2DF3-4770-A1C3-6CC5C644B79E}" ParallelWalk="True">
+								<Image FileName="678792235" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{99AD581E-2CF3-4295-9B21-7C26C97F29A3}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="MainForm" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ToolBar" Key="{04A04B76-672A-45FF-AE19-CEC5A0521871}" ParallelWalk="True">
+										<Image FileName="-783552121" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{FD5D8871-4044-4BE8-85C1-2A1BDE797D4F}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="ToolBar" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="OrdersView" Key="{946D5C8F-6640-43F5-A3E3-C6F58698E08B}" ParallelWalk="True">
+										<Image FileName="-776338084" Left="8" Top="79" Right="600" Bottom="378" />
+										<TypeInfo Item0="{13762BB2-FBE2-420C-B1D7-D4535AB439C6}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="OrdersView" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{9061C01D-9ABD-471D-94E3-A54A9A1A43C2}" ParallelWalk="True">
+								<Image FileName="-794910257" Left="0" Top="0" Right="488" Bottom="478" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="OrderForm" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{74A61B37-849D-471B-A1A8-6C7E74DC52DE}" ParallelWalk="True">
+										<Image FileName="-794910257" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="Group" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{E2B0F288-E3BA-4A31-982A-4293E8C7F76D}" ParallelWalk="True">
+												<Image FileName="1792960274" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{16A93656-D333-495C-8EE7-B0B9FF134F95}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Customer" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ProductNames" Key="{C48319B0-51B3-48A8-BD27-42CE9300BD54}" ParallelWalk="True">
+												<Image FileName="-794910257" Left="75" Top="50" Right="467" Bottom="71" />
+												<TypeInfo Item0="{89935CAA-0478-4AF7-B51C-D99AC45F6055}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="ProductNames" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{D69FDD87-E5B1-4F2F-87CE-957B0FD74BDE}" ParallelWalk="True">
+										<Image FileName="487875101" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{0844A689-AE09-44D2-AEAF-81AFB81270A0}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="ButtonOK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSaveAs" Key="{244CCB4D-844C-40C5-B4FA-B60CF38A7CEE}" ParallelWalk="True">
+								<Image FileName="315824763" Left="0" Top="0" Right="960" Bottom="540" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Save As" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{1C5F513C-7929-4CB0-8999-561E5089D548}" ParallelWalk="True">
+										<Image FileName="315824763" Left="8" Top="66" Right="952" Bottom="480" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="DUIViewWndClassName" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{B4FC029F-7C90-48C1-A5E8-4D33CBEA9363}" ParallelWalk="True">
+												<Image FileName="315824763" Left="8" Top="66" Right="952" Bottom="480" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="DirectUI" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="HWNDView" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="pane" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Explorer_Pane" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FloatNotifySink" Key="{F4A8BEAA-E381-4BF6-9582-D60704F93B80}" ParallelWalk="True">
+														<Image FileName="315824763" Left="133" Top="426" Right="947" Bottom="449" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="FloatNotifySink" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="Index">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ComboBox" Key="{D94EEF34-B62A-4B1D-A86C-050314654D59}" ParallelWalk="True">
+																<Image FileName="315824763" Left="133" Top="426" Right="947" Bottom="449" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="ComboBox" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Edit" Key="{D4AB0D97-B5D5-482A-9739-6229D9962E4A}" ParallelWalk="True">
+																		<Image FileName="315824763" Left="136" Top="429" Right="927" Bottom="446" />
+																		<TypeInfo Item0="{16A93656-D333-495C-8EE7-B0B9FF134F95}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="Edit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnSave" Key="{536B78F0-AB36-4539-A58D-B4F3C6E9DFF3}" ParallelWalk="True">
+										<Image FileName="746628101" Left="747" Top="494" Right="835" Bottom="520" />
+										<TypeInfo Item0="{0844A689-AE09-44D2-AEAF-81AFB81270A0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="&amp;Save" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{EEF3218A-D28A-4930-9860-F0FFE1C5F1AE}">
+			<Child Name="MainForm" Owner="{EB81895D-2DF3-4770-A1C3-6CC5C644B79E}">
+				<Child Name="ToolBar" Owner="{04A04B76-672A-45FF-AE19-CEC5A0521871}" />
+				<Child Name="OrdersView" Owner="{946D5C8F-6640-43F5-A3E3-C6F58698E08B}" />
+			</Child>
+			<Child Name="OrderForm" Owner="{9061C01D-9ABD-471D-94E3-A54A9A1A43C2}">
+				<Child Name="Group" Owner="{74A61B37-849D-471B-A1A8-6C7E74DC52DE}">
+					<Child Name="Customer" Owner="{E2B0F288-E3BA-4A31-982A-4293E8C7F76D}" />
+					<Child Name="ProductNames" Owner="{C48319B0-51B3-48A8-BD27-42CE9300BD54}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{D69FDD87-E5B1-4F2F-87CE-957B0FD74BDE}" />
+			</Child>
+			<Child Name="dlgSaveAs" Owner="{244CCB4D-844C-40C5-B4FA-B60CF38A7CEE}">
+				<Child Name="DUIViewWndClassName" Owner="{1C5F513C-7929-4CB0-8999-561E5089D548}">
+					<Child Name="Explorer_Pane" Owner="{B4FC029F-7C90-48C1-A5E8-4D33CBEA9363}">
+						<Child Name="FloatNotifySink" Owner="{F4A8BEAA-E381-4BF6-9582-D60704F93B80}">
+							<Child Name="ComboBox" Owner="{D94EEF34-B62A-4B1D-A86C-050314654D59}">
+								<Child Name="Edit" Owner="{D4AB0D97-B5D5-482A-9739-6229D9962E4A}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnSave" Owner="{536B78F0-AB36-4539-A58D-B4F3C6E9DFF3}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

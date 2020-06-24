@@ -1,0 +1,16 @@
+﻿Function SelectMainMenuItem(menuSelection)
+  
+  Dim mainWindow                        'Create an object which identifies main window form 
+  Set mainWindow = Aliases.Orders.MainForm
+   
+   Call mainWindow.MainMenu.Click(menuSelection)
+   
+End Function
+
+Function SaveFile(fileName)
+  
+  SelectMainMenuItem("File|Save As...")
+  
+  Call Aliases.ComboBox.Edit.SetText(fileName)
+  
+End Function
